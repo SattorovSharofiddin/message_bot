@@ -6,3 +6,6 @@ push:
 
 setup:
 	pip install -r requirements.txt
+
+req:
+	pip freeze > requirements.txt
